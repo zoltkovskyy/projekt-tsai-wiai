@@ -1,0 +1,24 @@
+/* Usuń domyślne dolne i zaokrąglone obramowania paska nawigacyjnego */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Dodaj szary kolor tła i trochę dopełnienia do stopki */
+    footer {
+      background-color: gray;
+      padding: 10px;
+    }
+    
+      .carousel-inner img {
+      width: 100%; /* Ustaw szerokość na 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Ukryj tekst karuzeli, gdy szerokość ekranu jest mniejsza niż 600 pikseli */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
